@@ -95,7 +95,6 @@ public class Point3DTest {
     @Order(7)
     public void testDistanceFromOrigin(int px, int py, int pz, double expected, String errorMessage) {
         Point3D point3D = new Point3D(px, py, pz);
-
         Assertions.assertEquals(expected, point3D.distanceFromOrigin(), 0.000001, errorMessage);
     }
 
