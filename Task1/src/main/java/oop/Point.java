@@ -3,8 +3,8 @@ package main.java.oop;
 import java.awt.*;
 
 public class Point {
-    public int x;
-    public int y;
+    private int x;
+    private int y;
 
     // region Конструкторы
 
